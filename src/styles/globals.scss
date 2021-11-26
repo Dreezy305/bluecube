@@ -15,8 +15,9 @@
 .topbar {
   font-family: "Poppins";
   input[type="text"] {
+    position: relative !important;
     height: 50px;
-    width: 500px;
+    width: 650px;
     border-radius: 8px;
     border: 2px solid #fafafc;
     &::placeholder {
@@ -27,20 +28,25 @@
     }
   }
   button {
+    position: absolute !important;
     height: 40px;
-    right: 47%;
+    right: 31.4%;
     background: #3c339c;
     color: #dedede;
     width: 100px;
     border-radius: 5px;
-    top: 1.6%;
+    top: 0.6%;
     &:focus {
       box-shadow: none !important;
       outline: none;
     }
   }
   img {
-    left: 18%;
-    top: 12%;
+    position: absolute !important;
+    left: 23%;
+    top: 5.7%;
+  }
+  p {
+    font-family: "Poppins";
   }
 }
