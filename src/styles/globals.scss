@@ -2,10 +2,35 @@
 
 .left {
   font-family: "Poppins";
+  width: 20%;
+  height: 100vh;
   ul {
     li {
       p {
       }
+    }
+  }
+}
+
+.topbar {
+  font-family: "Poppins";
+  input[type="text"] {
+    height: 50px;
+    width: 500px;
+    border-radius: 8px;
+    border: 2px solid #fafafc;
+    &::placeholder {
+      color: #dedede;
+    }
+  }
+  button {
+    height: 40px;
+    right: 47%;
+    background: #3c339c;
+    color: #dedede;
+    width: 100px;
+    &:focus {
+      border-radius: none !important;
     }
   }
 }

@@ -39,11 +39,11 @@ function LeftSideBar() {
   return (
     <div className="left">
       <ul className="list-unstyled mt-4 ms-4">
-        <li className="mt-2 ">
+        <li className="mt-2">
           <img src={Cube} className="float-left ms-2 me-2" alt="bluecube" />
           <p
             className="d-inline text-end ms-1 fw-bold"
-            style={{ fontSize: "24px" }}
+            style={{ fontSize: "20px" }}
           >
             bluecube
           </p>
