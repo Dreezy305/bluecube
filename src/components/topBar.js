@@ -7,9 +7,10 @@ function TopBar() {
       <div className="topbar d-flex flex-row">
         <input
           type="text"
-          className="position-relative mt-4 px-3"
-          placeholder="Find Something"
+          className="position-relative mt-4 px-5"
+          placeholder="Find Something..."
         />
+        <img src={Search} className="position-absolute" alt="search_icon" />
         <button
           type="button"
           className="btn btn-primary mt-4 px-4 position-absolute"

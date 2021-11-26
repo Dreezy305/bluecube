@@ -22,6 +22,9 @@
     &::placeholder {
       color: #dedede;
     }
+    &:focus {
+      outline: none;
+    }
   }
   button {
     height: 40px;
@@ -29,8 +32,15 @@
     background: #3c339c;
     color: #dedede;
     width: 100px;
+    border-radius: 5px;
+    top: 1.6%;
     &:focus {
-      border-radius: none !important;
+      box-shadow: none !important;
+      outline: none;
     }
+  }
+  img {
+    left: 18%;
+    top: 12%;
   }
 }
