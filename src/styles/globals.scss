@@ -15,7 +15,6 @@
 .topbar {
   font-family: "Poppins";
   input[type="text"] {
-    position: relative !important;
     height: 50px;
     width: 650px;
     border-radius: 8px;
@@ -30,12 +29,12 @@
   button {
     position: absolute !important;
     height: 40px;
-    right: 31.4%;
+    right: 1%;
     background: #3c339c;
     color: #dedede;
     width: 100px;
     border-radius: 5px;
-    top: 0.6%;
+    top: 5%;
     &:focus {
       box-shadow: none !important;
       outline: none;
@@ -43,10 +42,48 @@
   }
   img {
     position: absolute !important;
-    left: 23%;
-    top: 5.7%;
+    left: 3%;
+    top: 48.7%;
   }
-  p {
-    font-family: "Poppins";
+  &_left {
+    p {
+      font-family: "Poppins";
+      color: #d8d2f8;
+      font-weight: bold;
+    }
+  }
+}
+
+.badge-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  &.circle {
+    background-color: #a9333f;
+    color: white;
+    font-weight: normal;
+    border-radius: 9px;
+    padding: 0px 5px;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    top: auto;
+    font-size: 10px;
+  }
+}
+
+.avatar-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  &.dot {
+    background-color: #36cc61;
+    border-radius: 50%;
+    position: absolute;
+    left: 78px;
+    bottom: 0px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
   }
 }
