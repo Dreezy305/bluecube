@@ -3,13 +3,16 @@ import "./styles/globals.scss";
 import "./App.css";
 import LeftSideBar from "./components/leftSideBar";
 import TopBar from "./components/topBar";
+import FilterOptions from "./components/filterOptions";
 
 function App() {
   return (
-    <div className="d-flex flex-row justify-content-start App">
-      <LeftSideBar />
-      <TopBar />
-    </div>
+    <>
+      <div className="d-flex flex-row justify-content-start App">
+        <LeftSideBar />
+        <TopBar />
+      </div>
+    </>
   );
 }
 

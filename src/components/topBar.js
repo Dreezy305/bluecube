@@ -1,4 +1,5 @@
 import React from "react";
+import FilterOptions from "./filterOptions";
 import Search from "../assets/search.svg";
 import Bell from "../assets/bell.svg";
 import Avatar from "../assets/avatar_two.svg";
@@ -6,7 +7,7 @@ import Avatar from "../assets/avatar_two.svg";
 function TopBar() {
   return (
     <>
-      <div className="d-flex flex-row justify-content-around align-items-baseline w-100">
+      <div className="d-flex flex-row justify-content-around align-items-baseline w-100 mb-4">
         <div className="topbar d-flex flex-row position-relative">
           <input
             type="text"
@@ -35,6 +36,8 @@ function TopBar() {
           <p className="mt-3 ms-5">Abigail</p>
         </div>
       </div>
+
+      {/* <FilterOptions /> */}
     </>
   );
 }

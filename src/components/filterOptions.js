@@ -2,9 +2,21 @@ import React from "react";
 
 function FilterOptions() {
   return (
-    <div>
-      <h1>filter</h1>
-    </div>
+    <section className="">
+      <div className="d-flex flex-row">
+        <select>
+          <option value="" disabled selected>
+            World
+          </option>
+        </select>
+
+        <select>
+          <option value="" disabled selected>
+            World
+          </option>
+        </select>
+      </div>
+    </section>
   );
 }
 
