@@ -37,7 +37,7 @@ function LeftSideBar() {
   };
 
   return (
-    <div className="left pt-3">
+    <div className="left pt-3 ps-5">
       <ul className="list-unstyled mt-4 ms-4">
         <li className="" style={{ marginTop: "35px !important" }}>
           <img src={Cube} className="float-left ms-2 me-2" alt="bluecube" />

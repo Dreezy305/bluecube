@@ -9,7 +9,8 @@
 .home {
   border: 2px solid #ececee;
   border-radius: 6px;
-  width: fit-content;
+  width: -moz-fit-content;
   height: auto;
-  padding: 10px 24px;
+  padding: 11px 28px;
+  margin-right: 25px;
 }
