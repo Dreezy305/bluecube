@@ -33,7 +33,7 @@ export default function Unsplash() {
                     alt="unsplash_image"
                   />
                 </div>
-                <div className="flip-box-back">
+                <div className="flip-box-back ">
                   <img
                     src={image.urls.small}
                     className="mb-2 mt-2"
