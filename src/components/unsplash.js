@@ -10,7 +10,9 @@ export default function Unsplash() {
       "https://api.unsplash.com/photos/?client_id=n4mKFED6xmTSJ_HZ2ceT_Vnunl8CC1pBxE0swmvPLIk"
     );
     const data = await response.data;
-    setImages(data);
+    console.log(data);
+    const dataImage = data !== undefined ? data : [];
+    setImages(dataImage);
   };
 
   useEffect(() => {
@@ -18,8 +20,19 @@ export default function Unsplash() {
   }, []);
 
   return (
-    <div className="unsplash mt-3">
-      <h1>photos</h1>
+    <div className="container">
+      <div className="row">
+        {images.map((image) => (
+          <div className="col-lg-2" style={{ width: "20%" }}>
+            <img
+              src={image.urls.small}
+              className="mb-2 mt-2"
+              alt="unsplash_image"
+              style={{ maxWidth: "100%", height: "270px", borderRadius: "8px" }}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
