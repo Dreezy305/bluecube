@@ -39,6 +39,8 @@ export default function Unsplash() {
                     className="mb-2 mt-2"
                     alt="unsplash_image"
                   />
+                  <h2>Paris</h2>
+                  <p>What an amazing city</p>
                 </div>
               </div>
             </div>
@@ -48,3 +50,7 @@ export default function Unsplash() {
     </div>
   );
 }
+
+// first_name + last_name
+// location
+// total_photos
