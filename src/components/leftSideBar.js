@@ -37,20 +37,20 @@ function LeftSideBar() {
   };
 
   return (
-    <div className="left">
+    <div className="left pt-3">
       <ul className="list-unstyled mt-4 ms-4">
-        <li className="mt-2">
+        <li className="" style={{ marginTop: "35px !important" }}>
           <img src={Cube} className="float-left ms-2 me-2" alt="bluecube" />
           <p
-            className="d-inline text-end ms-1 fw-bold"
-            style={{ fontSize: "20px" }}
+            className="d-inline text-end ms-1 fw-bold align-middle"
+            style={{ fontSize: "20px", color: "#4841a0" }}
           >
             bluecube
           </p>
         </li>
-        <li className="mt-5 mb-4">
+        <li className="mt-5 mb-4 home">
           <img src={Home} className="float-left ms-2 me-2" alt="logo_icon" />
-          <p className="d-inline text-end ms-1">Home</p>
+          <p className="d-inline text-end ms-1 align-middle">Home</p>
         </li>
         <li className="mt-2 mb-4">
           <img src={Message} className="float-left ms-2 me-2" alt="logo_icon" />

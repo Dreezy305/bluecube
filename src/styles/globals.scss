@@ -4,6 +4,7 @@
   font-family: "Roboto", sans-serif;
   width: 20%;
   height: 100vh;
+  border-right: 2px solid#ededef;
   ul {
     li {
       p {
@@ -93,13 +94,16 @@
   height: 50px;
   border: 2px solid #f3f3f3;
   border-radius: 8px;
+
   &_content {
     border-right: 2px solid #f5f5f5;
+    cursor: pointer;
+
     p {
       color: #d4d4d4;
       span {
         &:nth-child(1) {
-          font-size: 22px;
+          font-size: 15px;
         }
       }
     }
