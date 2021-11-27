@@ -1,6 +1,7 @@
 import React from "react";
 import FilterOptions from "./filterOptions";
 import InputAndOthers from "./inputandothers";
+import Unsplash from "./unsplash";
 
 function TopBar() {
   return (
@@ -9,6 +10,8 @@ function TopBar() {
         <InputAndOthers />
 
         <FilterOptions />
+
+        <Unsplash />
       </div>
     </>
   );
