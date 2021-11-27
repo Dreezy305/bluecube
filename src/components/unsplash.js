@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Map from "../assets/map-pin.svg";
 
 export default function Unsplash() {
   const [images, setImages] = useState([]);
@@ -39,8 +40,15 @@ export default function Unsplash() {
                     className="mb-2 mt-2"
                     alt="unsplash_image"
                   />
-                  <h2>Paris</h2>
-                  <p>What an amazing city</p>
+                  <h2>
+                    <span>{image.first_name + image.last_name}</span>,
+                    <span>{image.total_photos}</span>
+                  </h2>
+                  <p>
+                    <span>
+                      <img src={Map} className="" alt="location" />
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>
