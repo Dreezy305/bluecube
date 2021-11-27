@@ -87,9 +87,11 @@ body {
   position: absolute;
   top: 58%;
   font-size: 15px;
+  color: #9e9ab3;
 }
 
 #p {
   position: absolute;
   top: 72%;
+  color: #c0bfc4;
 }
