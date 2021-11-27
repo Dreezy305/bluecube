@@ -7,9 +7,8 @@ function TopBar() {
     <>
       <div className="d-flex flex-column">
         <InputAndOthers />
-        <div className="">
-          <FilterOptions />
-        </div>
+
+        <FilterOptions />
       </div>
     </>
   );

@@ -52,7 +52,10 @@ function FilterOptions() {
           </span>
         </p>
       </div>
-      <div className="options_content">
+      <div
+        className="options_content"
+        style={{ borderRight: "0px solid #f5f5f5" }}
+      >
         <p className="align-middle py-2 px-3">
           <span className="align-middle me-2">Profession</span>
           <span className="align-middle">
