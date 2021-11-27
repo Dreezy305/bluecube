@@ -40,9 +40,10 @@ export default function Unsplash() {
                     className="mb-2 mt-2"
                     alt="unsplash_image"
                   />
-                  <h2>
-                    <span>{image.first_name + image.last_name}</span>,
-                    <span>{image.total_photos}</span>
+                  <h2 className="d-flex flex-row p">
+                    <span className="">{image.user.first_name}</span>
+                    <span className="">{image.user.last_name}</span>,
+                    <span className="">{image.user.total_photos}</span>
                   </h2>
                   <p>
                     <span>

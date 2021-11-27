@@ -58,3 +58,33 @@ body {
   color: white;
   transform: rotateY(180deg);
 }
+
+.span-one {
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  font-size: 10px;
+  color: #ece6ff;
+}
+
+.span-one-1 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 10px;
+  color: #ece6ff;
+}
+
+.span-two {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  font-size: 10px;
+  color: #ece6ff;
+}
+
+.p {
+  position: absolute;
+  top: 58%;
+  font-size: 15px;
+}
