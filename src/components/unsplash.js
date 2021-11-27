@@ -23,12 +23,11 @@ export default function Unsplash() {
     <div className="container">
       <div className="row">
         {images.map((image) => (
-          <div className="col-lg-2" style={{ width: "20%" }}>
+          <div className="col-lg-2 imgCol">
             <img
               src={image.urls.small}
               className="mb-2 mt-2"
               alt="unsplash_image"
-              style={{ maxWidth: "100%", height: "270px", borderRadius: "8px" }}
             />
           </div>
         ))}

@@ -109,3 +109,12 @@
     }
   }
 }
+
+.imgCol {
+  width: 20% !important;
+  img {
+    max-width: 100%;
+    height: 270px;
+    border-radius: 8px;
+  }
+}
