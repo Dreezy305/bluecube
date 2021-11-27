@@ -18,7 +18,7 @@ export default function InputAndOthers() {
         </button>
       </div>
 
-      <div className="ms-5 d-flex flex-row justify-content-around align-items-center topbar_left">
+      <div className="ms-5 d-flex flex-row justify-content-around align-items-center topbar_left pe-5">
         <div className="position-relative">
           <img src={Bell} className="img-fluid me-3" alt="notification_bell" />
           <span class="badge-overlay circle">3</span>

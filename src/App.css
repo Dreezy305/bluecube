@@ -6,11 +6,11 @@
   font-family: "Roboto", sans-serif;
 }
 
-.home {
+.home:hover {
   border: 2px solid #ececee;
   border-radius: 6px;
   width: -moz-fit-content;
   height: auto;
-  padding: 11px 28px;
+  padding: 12px;
   margin-right: 25px;
 }

@@ -20,7 +20,7 @@ export default function Unsplash() {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container pe-5 ps-0">
       <div className="row">
         {images.map((image) => (
           <div className="col-lg-2 imgCol">

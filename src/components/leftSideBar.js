@@ -17,13 +17,13 @@ function LeftSideBar() {
     { id: 3, image: Party, title: "Party" },
     { id: 4, image: Connect, title: "Connect" },
     { id: 5, image: Parade, title: "Parade" },
-    { id: 6, image: Parade, title: "Group" },
+    { id: 6, image: Group, title: "Group" },
   ];
 
   const SideBarSection = ({ image, title }) => {
     return (
       <ul className="mt-2 sidelist">
-        <li className="d-inline-block">
+        <li className="d-inline-block home">
           <img src={image} className="float-left me-2" alt="logo_icon" />
           <p className="d-inline text-end ms-1">{title}</p>
         </li>
@@ -52,11 +52,11 @@ function LeftSideBar() {
           <img src={Home} className="float-left ms-2 me-2" alt="logo_icon" />
           <p className="d-inline text-end ms-1 align-middle">Home</p>
         </li>
-        <li className="mt-2 mb-4">
+        <li className="mt-2 mb-4 home">
           <img src={Message} className="float-left ms-2 me-2" alt="logo_icon" />
           <p className="d-inline text-end ms-1">Message</p>
         </li>
-        <li className="ms-2 mt-2 mb-4">
+        <li className="ms-2 mt-2 mb-4 ">
           <p className="mt-3 fw-bold">SHARED</p>
         </li>
       </ul>

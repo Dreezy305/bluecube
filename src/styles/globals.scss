@@ -14,14 +14,16 @@
 }
 
 .topbar {
-  font-family: "Poppins";
+  font-family: "Roboto", sans-serif;
   input[type="text"] {
+    font-family: "Roboto", sans-serif;
     height: 50px;
     width: 650px;
     border-radius: 8px;
     border: 2px solid #fafafc;
     &::placeholder {
       color: #dedede;
+      font-family: "Roboto", sans-serif;
     }
     &:focus {
       outline: none;
@@ -36,6 +38,7 @@
     width: 100px;
     border-radius: 5px;
     top: 5%;
+    font-family: "Roboto", sans-serif;
     &:focus {
       box-shadow: none !important;
       outline: none;
@@ -48,7 +51,7 @@
   }
   &_left {
     p {
-      font-family: "Poppins";
+      font-family: "Roboto", sans-serif;
       color: #d8d2f8;
       font-weight: bold;
     }
