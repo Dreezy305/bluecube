@@ -1,22 +1,66 @@
 import React from "react";
+import Chevron from "../assets/chevronDown.svg";
 
 function FilterOptions() {
   return (
-    <section className="">
-      <div className="d-flex flex-row">
-        <select>
-          <option value="" disabled selected>
-            World
-          </option>
-        </select>
-
-        <select>
-          <option value="" disabled selected>
-            World
-          </option>
-        </select>
+    <div className="d-flex flex-row options">
+      <div className="options_content">
+        <p className="align-middle py-2 px-3">
+          <span className="align-middle me-2">World</span>
+          <span className="align-middle">
+            <img src={Chevron} className="" alt="chevron_down" />
+          </span>
+        </p>
       </div>
-    </section>
+      <div className="options_content">
+        <p className="align-middle py-2 px-3">
+          <span className="align-middle me-2">Following</span>
+          <span className="align-middle">
+            <img src={Chevron} className="" alt="chevron_down" />
+          </span>
+        </p>
+      </div>
+      <div className="options_content">
+        <p className="align-middle py-2 px-3">
+          <span className="align-middle me-2">Popular</span>
+          <span className="align-middle">
+            <img src={Chevron} className="" alt="chevron_down" />
+          </span>
+        </p>
+      </div>
+      <div className="options_content">
+        <p className="align-middle py-2 px-3">
+          <span className="align-middle me-2">Post</span>
+          <span className="align-middle">
+            <img src={Chevron} className="" alt="chevron_down" />
+          </span>
+        </p>
+      </div>
+      <div className="options_content">
+        <p className="align-middle py-2 px-3">
+          <span className="align-middle me-2">Gender</span>
+          <span className="align-middle">
+            <img src={Chevron} className="" alt="chevron_down" />
+          </span>
+        </p>
+      </div>
+      <div className="options_content">
+        <p className="align-middle py-2 px-3">
+          <span className="align-middle me-2">Location</span>
+          <span className="align-middle">
+            <img src={Chevron} className="" alt="chevron_down" />
+          </span>
+        </p>
+      </div>
+      <div className="options_content">
+        <p className="align-middle py-2 px-3">
+          <span className="align-middle me-2">Profession</span>
+          <span className="align-middle">
+            <img src={Chevron} className="" alt="chevron_down" />
+          </span>
+        </p>
+      </div>
+    </div>
   );
 }
 
