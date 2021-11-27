@@ -21,15 +21,17 @@ export default function Unsplash() {
 
   return (
     <div className="container pe-5 ps-0">
-      <div className="row">
+      <div className="row ">
         {images.map((image) => (
-          <div className="col-lg-2 imgCol">
-            <img
-              src={image.urls.small}
-              className="mb-2 mt-2"
-              alt="unsplash_image"
-            />
-          </div>
+          <>
+            <div className="col-lg-2 imgCol">
+              <img
+                src={image.urls.small}
+                className="mb-2 mt-2"
+                alt="unsplash_image"
+              />
+            </div>
+          </>
         ))}
       </div>
     </div>
