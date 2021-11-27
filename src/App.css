@@ -88,3 +88,8 @@ body {
   top: 58%;
   font-size: 15px;
 }
+
+#p {
+  position: absolute;
+  top: 72%;
+}
