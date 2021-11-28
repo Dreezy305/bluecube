@@ -20,7 +20,12 @@ export default function InputAndOthers() {
 
       <div className="ms-5 d-flex flex-row justify-content-around align-items-center topbar_left pe-5">
         <div className="position-relative">
-          <img src={Bell} className="img-fluid me-3" alt="notification_bell" />
+          <img
+            src={Bell}
+            className="img-fluid me-3"
+            alt="notification_bell"
+            style={{ cursor: "pointer" }}
+          />
           <span class="badge-overlay circle">3</span>
         </div>
         <div className="position-relative">
