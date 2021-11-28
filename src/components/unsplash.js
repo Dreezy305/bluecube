@@ -48,7 +48,7 @@ export default function Unsplash() {
                       <span className="">{image.user.total_photos}</span>
                     </h2>
                     <p className="d-flex flex-row" id="p">
-                      <span>
+                      <span className="me-3">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="10"
@@ -89,7 +89,3 @@ export default function Unsplash() {
     </div>
   );
 }
-
-// first_name + last_name
-// location
-// total_photos
